@@ -24,29 +24,29 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-MEMEK = "http://telegra.ph/file/2861eda5afba02bf04254.jpg"
+MEMEK = "https://telegra.ph/file/ad381e58b667455105b5e.jpg"
 
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f"""✨ **Hey I'm ShuKurenaiXRoBot** 
+        caption=f"""✨ **Hey I'm Yamato** 
 
-**Owner repo : [ShuKurenaiTeam](https://t.me/shukurenai007)**
+**Owner: [『安』ƙιɾαα](https://t.me/diitod)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
 **Pyrogram Version :** `{z}`
 
-**Create your own with click button bellow.**
+**Yamato Supports.**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="https://github.com/shukurenai007/ShuKurenaiXRoBot"), 
+                        "Channel", url="https://t.me/channel_anime_indo"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/ShuKurenaiSupport")
+                        "Group Chat", url="https://t.me/grup_anime")
                 ]
             ]
         )
