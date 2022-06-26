@@ -44,20 +44,20 @@ async def _(event):
                 f.write("\n" + title)
                 f.write("\nBook link:- " + link + "\n\n")
 
-        f.write("By @ShuKurenaiXRoBot.")
+        f.write("By @cutieepierobot.")
         f.close()
-        caption = "A collabration with Friday.\n Join Support @shukurenairobot007"
+        caption = "A collabration with Friday.\n Join Support @grup_anime"
 
         await tbot.send_file(
             event.chat_id,
             "book.txt",
-            caption=f"**BOOKS GATHERED SUCCESSFULLY!**\n\nBY @ShuKurenaiXRoBot.\n\n JOIN THE UPDATE 👉 @shukurenairobot007.",
+            caption=f"**BOOKS GATHERED SUCCESSFULLY!**\n\nBY @cutieepierobot.\n\n JOIN OUR CHANNEL👉 @channel_anime_indo.",
         )
         os.remove("book.txt")
         await KkK.delete()
 
 __help__ = """
-@shukurenairobot007
+@cutieepierobot
 ** book  **
  ❍ /book  <book name > : Search any book useing this bot  
 """
