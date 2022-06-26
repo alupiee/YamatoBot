@@ -19,12 +19,12 @@ from pyrogram import __version__ as pyro
 
 edit_time = 5
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/3cd1f5776c3ea08f609f4.jpg"
-file2 = "https://telegra.ph/file/e384ab52db8c0912ca356.jpg"
-file3 = "https://telegra.ph/file/0adf9e97735ba8a420973.jpg"
-file4 = "https://telegra.ph/file/2861eda5afba02bf04254.jpg" 
-file5 = "https://telegra.ph//file/f218b08b076fa31df028b.jpg"
-file6 = "https://telegra.ph//file/75280e721b12b8b4a18a4.jpg"
+file1 = "https://telegra.ph/file/ad381e58b667455105b5e.jpg"
+file2 = "https://telegra.ph/file/4289b6a13927d27142d0e.jpg"
+file3 = "https://telegra.ph/file/b2f07deb75997d7657315.jpg"
+file4 = "https://telegra.ph/file/11992771e03bc607622a5.jpg" 
+file5 = "https://telegra.ph/file/5295e906adbecf0b0d57c.jpg"
+file6 = "https://telegra.ph/file/bfa2a4c3a59659e1d3900.jpg"
 """ =======================CONSTANTS====================== """
 
 START_TIME = datetime.utcnow()
@@ -54,13 +54,13 @@ async def hmm(yes):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
-    Shu = f"♡ **Hey [{yes.sender.first_name}](tg://user?id={yes.sender.id}), I'm ShuKurenai**\n\n"
+    Shu = f"♡ **Hey [{yes.sender.first_name}](tg://user?id={yes.sender.id}), I'm Yamato**\n\n"
     Shu += f"♡ **My Uptime** ~♪ `{uptime}`\n\n"
     Shu += f"♡ **Telethon Version** ~♪ `{version.__version__}`\n\n"
     Shu += f"♡ **Python Telegram Bot Version** ~♪ `{telegram.__version__}`\n\n"
     Shu += f"♡ **Pyrogram Version** ~♪ `{pyro}`\n\n"
-    Shu += f"♡ **My Master** ~♪ [DeepakJack](tg://user?id={OWNER_ID})"
-    BUTTON = [[Button.url("Support Chat", f"https://t.me/{SUPPORT_CHAT}"), Button.url("Updates Channel", "https://t.me/shukurenai007")]]
+    Shu += f"♡ **My Master** ~♪ [『安』ƙιɾαα](tg://user?id={OWNER_ID})"
+    BUTTON = [[Button.url("Support Chat", f"https://t.me/{SUPPORT_CHAT}"), Button.url("Channel", "https://t.me/channel_anime_indo")]]
     on = await borg.send_file(yes.chat_id, file=file2,caption=Shu, buttons=BUTTON)
 
     await asyncio.sleep(edit_time)
