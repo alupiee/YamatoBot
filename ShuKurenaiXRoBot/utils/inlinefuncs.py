@@ -102,7 +102,7 @@ async def inline_help_func(__HELP__):
             input_message_content=InputTextMessageContent(
                 "**__Click A Button To Get Started.__**"
             ),
-            thumb_url="http://telegra.ph/file/0adf9e97735ba8a420973.jpg",
+            thumb_url="https://telegra.ph/file/3b8a5610874004f241afb.jpg",
             reply_markup=buttons,
         ),
     ]
@@ -115,27 +115,27 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     ubot_state = "Dead" if not await ubot2.get_me() else "Alive"
     buttons.add(
-        InlineKeyboardButton("Main bot", url="https://t.me/ShuKurenaiXRoBot"),
+        InlineKeyboardButton("Main bot", url="https://t.me/cutieepierobot"),
         InlineKeyboardButton(
             "Go Inline!", switch_inline_query_current_chat=""
         ),
     )
 
     msg = f"""
-**[ShuKurenaiXRoBot 🔥](http://telegra.ph/file/0adf9e97735ba8a420973.jpg):**
+**[Yamato🔥](https://telegra.ph/file/3b8a5610874004f241afb.jpg):**
 **MainBot:** `{bot_state}`
 **UserBot:** `{ubot_state}`
 **Python:** `{pyver.split()[0]}`
 **Pyrogram:** `{pyrover}`
 **MongoDB:** `{mongover}`
 **Platform:** `{sys.platform}`
-**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [Owner](t.me/DeepakJack007) 
+**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [Owner](t.me/diitod) 
 """
     answers.append(
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="http://telegra.ph/file/2861eda5afba02bf04254.jpg",
+            thumb_url="https://telegra.ph/file/3b8a5610874004f241afb.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),
