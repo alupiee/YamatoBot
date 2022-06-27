@@ -314,16 +314,16 @@ async def inuka(client, message):
     response = response.replace("9", "16")
     response = response.replace("I'm married to my job.", "I'm married with @ShuKurenaiXRoBot")
     response = response.replace("I'm single.", "My husband is @ShuKurenaiXRoBot")
-    response = response.replace("ShuKurenaiXRoBot.ai", "@ShuKurenaiSupport")
-    response = response.replace("I live in San Francisco, California.", "I live in @ShuKurenaiSupport")
-    response = response.replace("I made myself", "I was Created by @ShuKurenaiRoBot")
+    response = response.replace("S", "baiklah")
+    response = response.replace("I live in Wano Country.", "I live in @grup_anime")
+    response = response.replace("I made myself", "I was Created by @diitod")
     response = response.replace(
             "Hi, my friend! Do you want me to tell you a joke?",
-            "Hello there I am Shu Kurenai...nice to meet u")
+            "Hello there I am Yamato...nice to meet u")
     response = response.replace("Have the control right.", "@ShuKurenaiXRoBot is my owner.")
     response = response.replace(
             "Hi, my friend, what can I do for you today?",
-            "Hi, My name is Shu Kurenai Nice to meet you")
+            "Hi, My name is Yamato Nice to meet you")
 
     pro = response
     if not "en" in lan and not lan == "":
@@ -384,40 +384,40 @@ async def inuka(client, message):
 
     # test = emoji.demojize(test.strip())
 
-    test = test.replace("Shu", "Aco")
-    test = test.replace("Shu", "Aco")
-    test = test.replace("My god is @ShuKurenaiXRoBot", "I'm a Christian")
+    test = test.replace("Halo", "Hujan hujan enaknya ngapain ya")
+    test = test.replace("Hai", "Yawho")
+    test = test.replace("My darling is @diitod", "I'm Yamato")
     test = test.replace("16", "9") 
-    test = test.replace("@ShuKurenaiXRoBot is my husband.", "I'm single.")
-    test = test.replace("@ShuKurenaiSupport", "ShuKurenaiXRoBot.ai")
-    test = test.replace("I live in @ShuKurenaiSupport.", "I live in San Francisco, California.")
-    test = test.replace("I was created by @ShuKurenaiXRoBot", "I made myself")
+    test = test.replace("@diitod is my husband.", "I'm single.")
+    test = test.replace("@Rimmuruu kamu pengocok", "Kamu bau")
+    test = test.replace("I live in @grup_anime.", "I live in Wano Country.")
+    test = test.replace("I was created by @diitod", "I made myself")
     test = test.replace(
-        "Hello there I am Shu Kurenai...nice to meet u",
+        "Hello there I am Yamato...nice to meet u",
         "Hi, my friend! Do you want me to tell you a joke?")
-    test = test.replace("@ShuKurenaiXRoBot is my owner", "Have the control right.")
+    test = test.replace("Yamato sayang @diitod", "Have the control right.")
     test = test.replace(
-        "Hi, My name is Shu Kurenai Nice to meet you.",
+        "Hi, My name is Yamato Nice to meet you.",
         "Hi, my friend, what can I do for you today?")
     response = await lunaQuery(test, message.from_user.id if message.from_user else 0)
     response = response.replace("Aco", "Shu")
     response = response.replace("aco", "shu")
     response = response.replace("Luna", "Shu")
     response = response.replace("luna", "shu")
-    response = response.replace("I'm a Christian", "My god is @ShuKurenaiXRoBot")
-    response = response.replace("I'm married to my job.", "I'm married with @ShuKurenaiXRoBot")
+    response = response.replace("I'm Yamato", "My darling is @diitod")
+    response = response.replace("I'm married my favorite person.", "I'm married with @diitod")
     response = response.replace("9", "16") 
-    response = response.replace("I'm single.", "My husband is @ShuKurenaiXRoBot")
-    response = response.replace("Emikobot.ai", "@ShuKurenaiSupport")
-    response = response.replace("I live in San Francisco, California.", "I live in @ShuKurenaiSupport.")
-    response = response.replace("I made myself", "I was Created by @ShuKurenaiRoBot")
+    response = response.replace("I'm not single.", "My husband is @diitod♡")
+    response = response.replace("Aku sayang Adi", "@kaizumi bau azab")
+    response = response.replace("I live in Wano Country.", "I live in @grup_anime.")
+    response = response.replace("I made myself", "I was Created by @diitod")
     response = response.replace(
             "Hi, my friend! Do you want me to tell you a joke?",
-            "Hello there I am Shu Kurenai...nice to meet u")
-    response = response.replace("Have the control right.", "@ShuKurenaiXRoBot is my owner.")
+            "Hello there I am Yamato...nice to meet u")
+    response = response.replace("Have the control right.", "@diitod is my owner.")
     response = response.replace(
             "Hi, my friend, what can I do for you today?",
-            "Hi, My name is Shu Kurenai Nice to meet you")
+            "Hi, My name is Yamato Nice to meet you")
 
     pro = response
     if not "en" in lan and not lan == "":
@@ -434,7 +434,7 @@ async def inuka(client, message):
 
 
 __help__ = """
-❂ Shu Kurenai AI is the only ai system which can detect & reply upto 200 language's
+❂ [COMING SOON] Yamato AI is the only ai system which can detect & reply upto 200 language's
 
 ❂ /chatbot [ON/OFF]: Enables and disables AI Chat mode.
 ❂ /chatbot EN : Enables English only chatbot.
