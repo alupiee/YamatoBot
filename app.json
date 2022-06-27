@@ -1,5 +1,5 @@
 {
-      "name": "ShuKurenaiXRoBot",
+      "name": "YamatoBot",
       "description": "A Powerful  Telegram group management bot with anime theme.",
       "keywords": [
          "telegram",
@@ -9,8 +9,8 @@
          "naorobot"
       ],
     
-   "logo":    "",  
-   "repository": "https://github.com/shukurenai007/https://github.com/shukurenai007/ShuKurenaiXRoBot",
+   "logo":    "https://telegra.ph/file/bc08a810b46f69f5be577.jpg",  
+   "repository": "https://github.com/alupiee/https://github.com/alupiee/YamatoBot",
    "addons": [
           {
          "options": {
@@ -64,7 +64,7 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot without the @",
-         "value": "ShuKurenaiXRoBot"
+         "value": "cutieepierobot"
       },
 
       "BOT_ID": {
