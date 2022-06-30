@@ -57,17 +57,17 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("ShuKurenaiXRoBot AI Already Activated In This Chat")
+            await lel.edit("I said COMING SOON -_")
             return
-        await lel.edit(f"ShuKurenaiXRoBot AI Actived by {message.from_user.mention()} for users in {message.chat.title}")
+        await lel.edit(f"COMING SOON....")
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("ShuKurenaiXRoBot AI Was Not Activated In This Chat")
+            await lel.edit("Nothing can activated in here")
             return
-        await lel.edit(f"ShuKurenaiXRoBot AI Deactivated by {message.from_user.mention()} for users in {message.chat.title}")
+        await lel.edit(f"Nothing can activated in here")
 
     elif status == "EN" or status == "en" or status == "english":
         if not chat_id in en_chats:
