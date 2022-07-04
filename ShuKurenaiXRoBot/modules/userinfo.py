@@ -319,7 +319,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
     elif user.id == 1151132400:
-         text += "\n\nOwner Of A Bot. Queen Of @ShuKurenaiXRoBot. Bot Name Inspired From 'JoJo'."
+         text += "\n\nOwner Of A Bot. Queen Of @cutieepierobot. Bot Name Inspired From 'JoJo'."
          disaster_level_present = True
 
     try:
@@ -356,9 +356,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/shukurenai007/33"),
+                                "Health", url="https://telegra.ph/Yamato-Info-07-04-2"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/shukurenai007/35")
+                                "Disaster", url="https://telegra.ph/Yamato-Info-07-04-2")
                         ],
                     ]
                 ),
@@ -374,9 +374,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/shukurenai007/33"),
+                                "Health", url="https://telegra.ph/Yamato-Info-07-04-2"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/shukurenai007/35")
+                                "Disaster", url="https://telegra.ph/Yamato-Info-07-04-2")
                         ],
                     ]
                 ),
@@ -448,9 +448,9 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "<b>╔═━「 Current ShuKurenai Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "<b>╔═━「 Current Yamato Robot Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By ShuKurenaiSupport」</b>"
+    result += "\n<b>╘═━「 Powered By Diitod Escobar」</b>"
     update.effective_message.reply_photo(
         SHU,caption=result, 
         reply_markup=InlineKeyboardMarkup(
@@ -459,7 +459,7 @@ def stats(update: Update, context: CallbackContext):
                             InlineKeyboardButton(
                                 "Support", url=f"https://t.me/{SUPPORT_CHAT}"),
                             InlineKeyboardButton(
-                                "Updates", url=f"https://t.me/shukurenai007")
+                                "Updates", url=f"https://t.me/channel_anime_indo")
                         ],
                     ]
                 ),
@@ -580,7 +580,7 @@ When marked as AFK, any mentions will be replied to with a message stating that 
   - brb <reason>: Same as the afk command, but not a command. 
   
 *What is that health thingy?*
- Come and see [HP System explained](https://t.me/KennedyProject/44)
+ Come and see [HP System explained](https://telegra.ph/Yamato-Info-07-04-2)
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio, run_async=True)
