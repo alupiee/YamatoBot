@@ -7,20 +7,14 @@ from ShuKurenaiXRoBot import OWNER_ID, SUPPORT_CHAT
 from ShuKurenaiXRoBot import telethn as tbot
 from ShuKurenaiXRoBot.events import register
 
-SHU1 = ( "https://telegra.ph/file/3cd1f5776c3ea08f609f4.jpg", 
-      "https://telegra.ph/file/e384ab52db8c0912ca356.jpg", 
-      "https://telegra.ph/file/0adf9e97735ba8a420973.jpg", 
-      "https://telegra.ph/file/2861eda5afba02bf04254.jpg", 
-      "https://telegra.ph//file/f218b08b076fa31df028b.jpg", 
-      "https://telegra.ph//file/75280e721b12b8b4a18a4.jpg", 
-      "https://telegra.ph/file/3cd1f5776c3ea08f609f4.jpg", 
-      "https://telegra.ph/file/e384ab52db8c0912ca356.jpg", 
-      "https://telegra.ph/file/0adf9e97735ba8a420973.jpg"  
-      "https://telegra.ph/file/2861eda5afba02bf04254.jpg", 
-      "https://telegra.ph//file/75280e721b12b8b4a18a4.jpg", 
-      "https://telegra.ph//file/8cddbaed2a1718c935f83.jpg", 
+SHU1 = ( "https://telegra.ph/file/bfa2a4c3a59659e1d3900.jpg", 
+      "https://telegra.ph/file/5295e906adbecf0b0d57c.jpg", 
+      "https://telegra.ph/file/11992771e03bc607622a5.jpg", 
+      "https://telegra.ph/file/b2f07deb75997d7657315.jpg", 
+      "https://telegra.ph/file/4289b6a13927d27142d0e.jpg", 
+      "https://telegra.ph/file/ad381e58b667455105b5e.jpg",  
       ) 
-SHU2 = "https://telegra.ph//file/1247053aadf93e8e371a2.jpg"
+SHU2 = "https://telegra.ph/file/bcdc69ffbd6e4fa5bb6f8.jpg"
 
 @register(pattern="/feedback ?(.*)")
 async def feedback(e):
