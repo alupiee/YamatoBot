@@ -57,8 +57,7 @@ async def feedback(e):
     await e.reply(TEXT, file=random.choice(SHU1), buttons=BUTTON)
 
 __help__ = """
- - /feedback : You can give us your feedbacks 
-               can can see your feeds here.
+ -COMING SOON 
 """
 
-__mod_name__ = "feedback"
+__mod_name__ = "-"
