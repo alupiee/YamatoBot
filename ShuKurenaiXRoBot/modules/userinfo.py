@@ -43,7 +43,7 @@ from ShuKurenaiXRoBot.modules.helper_funcs.extraction import extract_user
 from ShuKurenaiXRoBot import telethn
 from ShuKurenaiXRoBot import SUPPORT_CHAT
 
-SHU = "https://telegra.ph//file/1247053aadf93e8e371a2.jpg"
+SHU = "https://telegra.ph/file/5295e906adbecf0b0d57c.jpg"
 
 def no_by_per(totalhp, percentage):
     """
