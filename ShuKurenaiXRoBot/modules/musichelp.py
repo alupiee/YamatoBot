@@ -15,5 +15,5 @@ __help__ = """
 ❂ /setmember - Set all command for all members.
 ❂ /vol (range 1-200) - To set volume on voice calls.
 
-NOTE : DON'T SPAMMING AT REQUEST SONG OR VIDEO...
+NOTE : NOT YET AVAILABLE...
 """
