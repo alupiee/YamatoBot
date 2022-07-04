@@ -51,7 +51,7 @@ async def feedback(e):
     await e.reply(TEXT, file=random.choice(SHU1), buttons=BUTTON)
 
 __help__ = """
- -COMING SOON 
+ -/feedback <text> : for share your feedback to my owner
 """
 
-__mod_name__ = "-"
+__mod_name__ = "Feedback"
