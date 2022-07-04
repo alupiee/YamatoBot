@@ -115,7 +115,7 @@ HELP_STRINGS = """
 Click on the button bellow to get description about specifics command[.](https://telegra.ph/file/082d407671713291ae93b.jpg)"""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """Contact to **@diitod**"""
+DONATE_STRING = """If you wanna make me smile, just join @grup_anime and subs our channels in @channel_anime_indo"""
 HELP_IMG = "https://telegra.ph/file/b270b311d32e45af47a88.mp4"
 GROUP_IMG = "https://telegra.ph/file/cda4818ced82d7cfb5e8d.jpg"
 
@@ -794,7 +794,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@log4youepok", "I am totally online[!](https://telegra.ph/file/516cd9a83491aabed2ce9.jpg)", parse_mode=ParseMode.MARKDOWN,
+            dispatcher.bot.sendMessage(f"https://t.me/+hO3sZlGlobI3YThl", "I am totally online[!](https://telegra.ph/file/516cd9a83491aabed2ce9.jpg)", parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [                  
